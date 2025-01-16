@@ -9,25 +9,25 @@ public class DataType : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int g2;
-        var i = 1;
-        var f = 2f;
-        var c = 'c';
-        var s = "str";
+        // int g2;
+        // var i = 1;
+        // var f = 2f;
+        // var c = 'c';
+        // var s = "str";
 
-        int age = 46, room = 402;
-        float f1 = 2.4f, f2 = 80.5f;
-        int i1 = 45, i2 = 20;
-        var v1 = 1;
+        // int age = 46, room = 402;
+        // float f1 = 2.4f, f2 = 80.5f;
+        // int i1 = 45, i2 = 20;
+        // var v1 = 1;
 
-        string str1 = "abc";
-        string str2 = new string("abc");
+        // string str1 = "abc";
+        // string str2 = new string("abc");
 
-        int num1;
-        num1 = 1;
-        int changed = 50;
-        float num3 = 4f, num4 = 7f;
-        bool isBool = true;
+        // int num1;
+        // num1 = 1;
+        // int changed = 50;
+        // float num3 = 4f, num4 = 7f;
+        // bool isBool = true;
 
         // Debug.Log(num1.ToString());
         // Debug.Log(changed.ToString());
