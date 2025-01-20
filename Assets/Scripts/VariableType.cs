@@ -7,8 +7,8 @@ using Debug = UnityEngine.Debug;
 
 public class VariableType : MonoBehaviour
 {
-    public bool staticVariable = true;
-    private int mGlovalVariable = 1;
+    // public bool staticVariable = true;
+    // private int mGlovalVariable = 1;
     public int abCde = 1; // 유니티 에디터 상으로 조작 가능
     public string STR = "Hi, World";
     const float pi = 3.14f;
