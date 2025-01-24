@@ -26,6 +26,11 @@ public class Operator : MonoBehaviour
         Debug.Log($"Before : {i}");
         Debug.Log($"i++ : {i++}");
         Debug.Log($"after : {i}");
+
+        i = 1;
+        object iBoxed = i;
+        Debug.Log((iBoxed is int).ToString());
+        Debug.Log((iBoxed is float).ToString());
     }
 
     // Update is called once per frame
