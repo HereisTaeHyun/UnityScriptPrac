@@ -4,24 +4,24 @@ using UnityEngine;
 
 public class EnumSample : MonoBehaviour
 {
-    enum Direction {None, North, East, South, West, Error}
-    // Start is called before the first frame update
-    void Start()
-    {
-        Direction myDir;
-        myDir = Direction.None;
-        Debug.Log($"Now Direction : {myDir}");
+    // enum Direction {None, North, East, South, West, Error}
+    // // Start is called before the first frame update
+    // void Start()
+    // {
+    //     Direction myDir;
+    //     myDir = Direction.None;
+    //     Debug.Log($"Now Direction : {myDir}");
 
-        myDir = ReverseDirection(myDir);
+    //     myDir = ReverseDirection(myDir);
 
-        if(myDir != Direction.Error)
-        {
-            Debug.Log($"Now Direction : {myDir}");
-        }
-    }
+    //     if(myDir != Direction.Error)
+    //     {
+    //         Debug.Log($"Now Direction : {myDir}");
+    //     }
+    // }
 
-    Direction ReverseDirection(Direction dir)
-    {
+    // Direction ReverseDirection(Direction dir)
+    // {
         // if(dir == Direction.North)
         // {
         //     dir = Direction.South;
@@ -39,25 +39,25 @@ public class EnumSample : MonoBehaviour
         //     dir = Direction.East;
         // }
 
-        switch(dir)
-        {
-            case Direction.North:
-                dir = Direction.South;
-                break;
-            case Direction.South:
-                dir = Direction.North;
-                break;
-            case Direction.East:
-                dir = Direction.West;
-                break;
-            case Direction.West:
-                dir = Direction.East;
-                break;
-            default:
-                Debug.LogError("알 수 없는 방향");
-                dir = Direction.Error;
-                break;
-        }
-        return dir;
-    }
+    //     switch(dir)
+    //     {
+    //         case Direction.North:
+    //             dir = Direction.South;
+    //             break;
+    //         case Direction.South:
+    //             dir = Direction.North;
+    //             break;
+    //         case Direction.East:
+    //             dir = Direction.West;
+    //             break;
+    //         case Direction.West:
+    //             dir = Direction.East;
+    //             break;
+    //         default:
+    //             Debug.LogError("알 수 없는 방향");
+    //             dir = Direction.Error;
+    //             break;
+    //     }
+    //     return dir;
+    // }
 }
